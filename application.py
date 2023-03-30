@@ -4,7 +4,7 @@ import numpy as np
 import os
 import glob
 import zipfile
-application = Flask(__name__)
+application = Flask(__name__, template_folder="templates")
 
 @application.route('/')
 def home():
