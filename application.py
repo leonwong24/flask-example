@@ -41,7 +41,7 @@ def detect_contours():
         #os.remove(f)
      
     return "detect contours page"
-    return send_file(zip_file_path, mimetype='application/zip', as_attachment=True)
+    #return send_file(zip_file_path, mimetype='application/zip', as_attachment=True)
     #return send_file(zip_file_path, mimetype='application/zip', attachment_filename=zip_filename, as_attachment=True)
 
 if __name__ == '__main__':
