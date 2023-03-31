@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, send_file
 #from flask import Flask
-#import cv2
+import cv2
 #import numpy as np
 #import os
 #import glob
